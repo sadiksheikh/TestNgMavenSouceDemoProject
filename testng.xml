@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+      <class name="com.souceDemo.TestClasses.TC003_VerifyAddTocartFunctionality"/>
+      <class name="com.souceDemo.TestClasses.TC004_VerifySocialMediaLinks"/>
+      <class name="com.souceDemo.TestClasses.TC001_VerifyLoginFunctionality"/>
+      <class name="com.souceDemo.TestClasses.TC007_VerifyAllItemsCheckoutFunctionality"/>
+      <class name="com.souceDemo.TestClasses.TC008_VerifyRemoveFromHomeCartFunctionality"/>
+      <class name="com.souceDemo.TestClasses.TC002_VerifyLogoutFunctionality"/>
+      <class name="com.souceDemo.TestClasses.TC005_VerifyDropDownFunctionality"/>
+      <class name="com.souceDemo.TestClasses.TC006_VerifyRemoveFromCartFunctionality"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
